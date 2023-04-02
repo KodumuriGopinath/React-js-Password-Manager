@@ -1,0 +1,40 @@
+.password-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.caption-item {
+  background-color: green;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.password-item-text {
+  font-family: roboto;
+  color: #ffffff;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+}
+.delete-button {
+  width: 40px;
+}
+.text-and-delete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.stars-img {
+  width: 100px;
+}
